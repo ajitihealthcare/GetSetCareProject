@@ -13,6 +13,9 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"getsetcare",Toast.LENGTH_SHORT).show();
         Toast.makeText(this,"getsetcaresolutions",Toast.LENGTH_SHORT).show();
         Toast.makeText(this,"getsetcaresolutionspvtLtd",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"getsetcaresolutionspvtLtd",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"getsetcareapp",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"getsetcarehralthylimited",Toast.LENGTH_SHORT).show();
 
     }
 }
