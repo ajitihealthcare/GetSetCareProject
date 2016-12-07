@@ -1,5 +1,8 @@
 package com.example.ajiti.getsetcareproject;
 
+import android.util.Log;
+import android.widget.Toast;
+
 import java.util.Map;
 
 /**
@@ -9,4 +12,5 @@ import java.util.Map;
 public interface ActionCallback
 {
     public void onCallback(Map<String, String> param);
+
 }
