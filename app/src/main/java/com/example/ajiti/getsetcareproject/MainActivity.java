@@ -17,7 +17,11 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"getsetcareapp",Toast.LENGTH_SHORT).show();
         Toast.makeText(this,"getsetcarehralthylimited",Toast.LENGTH_SHORT).show(); 
         Toast.makeText(this,"ajitihealthcaresolutions",Toast.LENGTH_SHORT).show(); 
-        Toast.makeText(this,"ajitihealthcare",Toast.LENGTH_SHORT).show(); 
+        Toast.makeText(this,"ajitihealthcare",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"ajitihealthcareapplication",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"ajitihealthcare1",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"ajitihealthcare2",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"ajitihealthcare3",Toast.LENGTH_SHORT).show();
 
     }
 }
