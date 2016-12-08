@@ -23,5 +23,7 @@ public class ProviderSignUpActivity extends AppCompatActivity{
           Toast.makeText(getApplicationContext(),"getsetcaresolutions2",Toast.LENGTH_SHORT).show();
           Toast.makeText(getApplicationContext(),"getsetcaresolutions3",Toast.LENGTH_SHORT).show();
           Toast.makeText(getApplicationContext(),"getsetcaresolutions4",Toast.LENGTH_SHORT).show();
+          Toast.makeText(getApplicationContext(),"getsetcaresolutions5",Toast.LENGTH_SHORT).show();
+          Toast.makeText(getApplicationContext(),"getsetcaresolutions6",Toast.LENGTH_SHORT).show();
       }
 }
