@@ -11,4 +11,9 @@ public class ProviderDTO {
     private String dob;
     private String address;
     private String city;
+    private String state;
+    private String pincode;
+    private String age;
+    private String education;
+    private String university;
 }
