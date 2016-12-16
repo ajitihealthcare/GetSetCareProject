@@ -7,6 +7,10 @@
     </declare-styleable>
     <string name="title_signup_healthcareprovider">Sign Up - Health Care Provider</string>
     <string name ="imageName"><u>ImageName</u></string>
+    <string name="title_accountroom">Medical Aid Network</string>
+    <string name="title_signup">Sign Up -Health Organization</string>
+    <string name="emaildata">we will send you an email with instructions on how to reset your password</string>
+    <string name="textdata">we will text you a verification code to reset your password</string>
 
     <string-array name="countries_list">
         <item>Afghanistan</item>

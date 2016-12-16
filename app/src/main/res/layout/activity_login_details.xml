@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,8 +11,7 @@
     android:layout_centerVertical="true">
 
     <RelativeLayout
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -188,4 +187,4 @@
             android:background="@drawable/button_border_white"/>
         </RelativeLayout>
 
-</RelativeLayout>
+</ScrollView>
