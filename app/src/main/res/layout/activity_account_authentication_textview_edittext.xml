@@ -17,7 +17,7 @@
             android:id="@+id/viewAccountAuthDetails"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"
+            android:visibility="visible"
             >
             <LinearLayout
                 android:layout_width="match_parent"
@@ -270,7 +270,7 @@
             android:id="@+id/openEditAccountAuthDetails"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible"
+            android:visibility="gone"
             android:adjustViewBounds="true"
             android:layout_alignParentBottom="false"
             android:layout_below="@id/viewAccountAuthDetails"

@@ -6,14 +6,7 @@ package com.example.ajiti.getsetcare;
 
 public class ProviderDTO {
 
-    private String name;
-    private String id;
-    private String dob;
-    private String address;
-    private String city;
-    private String state;
-    private String pincode;
-    private String age;
-    private String education;
-    private String university;
+    public static String id;
+    public static String userName;
+    public static String memberType;
 }

@@ -1,11 +1,69 @@
-<resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
+<resources >
 
-</resources>
+        <!-- Base application theme. -->
+       <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            &lt;!&ndash; Customize your theme here. &ndash;&gt;
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>-->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:windowNoTitle">true</item>
+            <item name="android:textColorPrimary">@color/textColorPrimary</item>
+            <item name="android:itemTextAppearance">@style/AppTheme.ItemTextStyle</item>
+            <item name="android:actionMenuTextColor">@color/colorPrimary</item>
+            <item name="colorAccent">#FC6C2D</item>
+            <item name="android:textColorSecondary">#000000</item>
+        </style>
+
+
+
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+       <!-- <style name="Animation">
+            <item name="android:windowEnterAnimation">@anim/bottom_up</item>
+            <item name="android:windowExitAnimation">@anim/bottom_down</item>
+        </style>-->
+
+        <style name="DialogOverlay" parent="AppTheme">
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowBackground">@android:color/transparent</item>
+            <item name="android:itemTextAppearance">@android:color/background_dark</item>
+        </style>
+        <style name="alertDialogTheme">
+            <item name="alertDialogTheme">@style/Theme.AppCompat.Light.Dialog.Alert</item>
+        </style>
+
+        <style name="MaterialSearchViewStyle">
+            <!-- Change voice icon -->
+            <item name="searchVoiceIcon">@drawable/ic_action_voice_search_inverted</item>
+
+            <!-- Change clear text icon -->
+            <item name="searchCloseIcon">@drawable/ic_action_navigation_close_inverted</item>
+
+            <!-- Change up icon -->
+            <item name="searchBackIcon">@drawable/ic_action_navigation_arrow_back_inverted</item>
+
+            <!-- Change icon for the suggestions -->
+            <item name="searchSuggestionIcon">@drawable/ic_suggestion</item>
+
+            <!-- Change background for the suggestions list view -->
+            <item name="searchSuggestionBackground">@android:color/white</item>
+
+            <!-- Hint for edit text -->
+            <item name="android:hint">@string/search_hint</item>
+        </style>
+        <style name="BorderlessButton" parent="Theme.AppCompat.Light">
+            <item name="colorControlHighlight">@color/colorPrimary</item>
+        </style>
+
+        <style name="AppTheme.ItemTextStyle" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+            <item name="android:textColor">@color/colorPrimary</item>
+        </style>
+
+
+    </resources>
+
+
+
